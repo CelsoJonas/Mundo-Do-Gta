@@ -1,0 +1,124 @@
+body {
+    background-image: url("images/gta.png");
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
+
+.subtitulo {
+    font-size: 40px;
+    color: #eee;
+    font-family: "Bebas Neue", sans-serif;
+    text-shadow: 7px 5px 4px #000000;
+    margin-left: 20px;
+    margin-top: -30px;
+}
+.poste {
+    width: 300px;
+    margin-top: -193px;
+    margin-left: -38px;
+}
+.miraheli {
+    width: 350PX;
+    margin-left: 797px;
+    margin-top: -285px;
+    animation: float 5s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    30% {
+        transform: translateY(-10px);
+    }
+    60% {
+        transform: translate(10px);
+    }
+    80% {
+        transform: translate(4px);
+    }
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 120px;
+}
+.produto1 {
+    background-color:rgb(0 0 0 / 82%);
+    width: 250px;
+    height: 400px;
+    margin-left: 100px;
+    box-shadow: 0 0 50px black;
+}
+.produto2 {
+    background-color: rgb(0 0 0 / 82%);
+    width: 250px;
+    height: 400px;
+    box-shadow: 0 0 50px black;
+}
+.produto3 {
+    background-color: rgb(0 0 0 / 82%);
+    width: 250px;
+    height: 400px;
+    margin-right: 100px;
+    box-shadow: 0 0 50px black;
+}
+.titulo_opcao {
+    display: flex;
+    justify-content: center;
+    font-family: "Bebas Neue", sans-serif;
+    color: #eee;
+    text-shadow: 7px 5px 4px #000000;
+    font-size: 45px;
+    padding: 10px;
+}
+.texto {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #eee;
+    text-shadow: 0 0 7px #000000;
+    margin-bottom: 30px;
+}
+
+.texto1 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Bebas Neue", sans-serif;
+    color: #eee;
+    text-shadow: 0 0 7px #000000;
+    margin-bottom: 110px;
+}
+.Vip {
+    text-align: center;
+    margin: auto;
+    background-color: #eee;
+    padding: 5px;
+    width: 200px;
+    height: 50px;
+    margin-top: 15px;
+    font-size: 35px;
+    text-shadow: 1px 1px 2px #000000;
+    font-family: "Bebas Neue", sans-serif;
+    border: 1px solid black;
+    box-shadow: 0 0 10px black;
+}
+.rodape {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: rgb(0 0 0 / 82%);
+    height: 5px;
+    font-size: 15px;
+    color: #eee;
+    text-shadow: 0 0 2px #eee;
+    box-shadow: 0 0 10px black;
+}
+a {
+    color: #000;
+}
